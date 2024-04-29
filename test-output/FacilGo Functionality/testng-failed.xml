@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FacilGo Functionality]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FacilGo Login Test(failed)">
+    <classes>
+      <class name="Functionality.Fuctionality">
+        <methods>
+          <include name="close"/>
+          <include name="setup"/>
+          <include name="TestCase25"/>
+        </methods>
+      </class> <!-- Functionality.Fuctionality -->
+    </classes>
+  </test> <!-- FacilGo Login Test(failed) -->
+</suite> <!-- Failed suite [FacilGo Functionality] -->
